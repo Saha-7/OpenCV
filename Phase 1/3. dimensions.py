@@ -1,5 +1,5 @@
 import cv2
-from numpy import imag
+
 
 image = cv2.imread("Phase 1\Pedri.jpg")
 

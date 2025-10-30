@@ -1,7 +1,7 @@
 import cv2
-from numpy import imag
 
-image = cv2.imread("Phase 1\Pedri.jpg")
+
+image = cv2.imread("Phase 1\csk.jpg")
 
 if image is not None:
     success = cv2.imwrite("output.png", image)
